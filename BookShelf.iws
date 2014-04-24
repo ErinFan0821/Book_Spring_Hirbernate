@@ -4,7 +4,6 @@
     <list default="true" id="3b329442-be8c-4af3-b7ea-e73a951c52c5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookShelf.iws" afterPath="$PROJECT_DIR$/BookShelf.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HelloServlet.java" afterPath="$PROJECT_DIR$/src/main/java/HelloServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
     </list>
     <ignored path="BookShelf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,7 +79,7 @@
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="285">
+            <state line="13" column="10" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -89,7 +88,7 @@
       <file leaf-file-name="HelloServlet.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HelloServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="779" selection-end="779" vertical-scroll-proportion="0.4087137" vertical-offset="118" max-vertical-offset="705">
+            <state line="30" column="25" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.65767634" vertical-offset="133" max-vertical-offset="660">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -559,7 +558,7 @@
       <workItem from="1398339554367" duration="761000" />
       <workItem from="1398340326284" duration="751000" />
       <workItem from="1398341094895" duration="2685000" />
-      <workItem from="1398343827696" duration="875000" />
+      <workItem from="1398343827696" duration="1913000" />
     </task>
     <task id="LOCAL-00001" summary="Add HelloWorld">
       <created>1398340598929</created>
@@ -577,11 +576,15 @@
       <created>1398343856852</created>
       <updated>1398343856852</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Form to Servlet&#10;">
+      <created>1398344730963</created>
+      <updated>1398344730963</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5072000" />
+    <option name="totallyTimeSpent" value="6110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="22" width="1398" height="878" extended-state="6" />
@@ -632,7 +635,8 @@
     <MESSAGE value="Add Hello Servlet&#10;" />
     <MESSAGE value="Add Book shelf Property&#10;" />
     <MESSAGE value="Add Sql and Sql dependency&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Sql and Sql dependency&#10;" />
+    <MESSAGE value="Add Form to Servlet&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Form to Servlet&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -718,13 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/create-db.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="14" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="255">
@@ -739,6 +736,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="10" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
@@ -748,7 +752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HelloServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="779" selection-end="779" vertical-scroll-proportion="0.4087137" vertical-offset="118" max-vertical-offset="705">
+        <state line="30" column="25" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.65767634" vertical-offset="133" max-vertical-offset="660">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
