@@ -1,3 +1,4 @@
+import com.sun.tools.javac.resources.compiler
 import com.sun.tools.javac.resources.compiler_ja
 
 apply plugin:'war'
@@ -11,4 +12,5 @@ repositories {
 dependencies {
     providedCompile 'javax.servlet:servlet-api:2.5'
     compile 'mysql:mysql-connector-java:5.1.30'
+    compile 'commons-dbcp:commons-dbcp:1.4'
 }
