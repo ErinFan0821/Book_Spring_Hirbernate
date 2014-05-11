@@ -13,7 +13,7 @@ import java.sql.ResultSet;
 /**
  * Created by techops on 4/24/14.
  */
-public class HelloServlet extends HttpServlet {
+public class BookShelfServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int isbn = Integer.parseInt(request.getParameter("isbn"));
         String name = request.getParameter("name");
