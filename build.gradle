@@ -1,9 +1,14 @@
-import com.sun.tools.javac.resources.compiler
-import com.sun.tools.javac.resources.compiler_ja
-
 apply plugin:'war'
 apply plugin: 'idea'
-apply plugin: 'jetty'
+apply plugin: 'java'
+
+task initProject << {
+    sourceSets.all { sourceSet ->
+        sourceSet.allJava.srcDirs.each {
+            it.exists() || it.mkdirs()
+        }
+    }
+}
 
 repositories {
     mavenCentral()
@@ -11,6 +16,4 @@ repositories {
 
 dependencies {
     providedCompile 'javax.servlet:servlet-api:2.5'
-    compile 'mysql:mysql-connector-java:5.1.30'
-    compile 'commons-dbcp:commons-dbcp:1.4'
 }
